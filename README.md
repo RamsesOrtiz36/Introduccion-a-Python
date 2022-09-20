@@ -49,6 +49,19 @@ Para usar Python se escoge un interprete en VSC ir a:
 
         "python:select interpreter"
 
+        Escoger Python 3.8.8 64bit ('base':conda) ~/anaconda3/bin/python
 
+Para usar jupyter en VSC:
+* Menu View
 
+    *Command palette
 
+    jupiter:Create new blank Jupyter notebook
+
+Se comprueba la configuración corriendo un pequeño programa
+
+        import numpy as np 
+        arr = np.array([100, 2.7, 8.3333, 4, 0.5])print(arr) 
+        print(type(arr)) 
+
+Si no se configura bien se puede cerrar el VSC y vovlver abrir para que se cargue nuevamente la configuración.
